@@ -14,7 +14,7 @@ $ cd [选项][参数]
 
 ```
 ~：进入当前用户主目录
--：返回进入此目录之前所在的目录
+-：返回并进入此目录之前所在的目录
 ..：返回上级目录
 ```
 
@@ -26,16 +26,36 @@ $ cd [选项][参数]
 $ cd [目录名称]
 ```
 
+```
+[root@linux-command ~]# cd linux_cd
+
+[root@linux-command linux_cd]#
+```
+
 **- 参数使用**
 
 ```
 $ cd -
 ```
 
+```
+[root@linux-command linux_cd]# cd -
+
+/root
+
+[root@linux-command ~]#
+```
+
 **.. 参数使用**
 
 ```
 $ cd ..
+```
+
+```
+[root@linux-command ~]# cd ..
+
+[root@linux-command /]# 
 ```
 
 ## 温馨提示
