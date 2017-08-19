@@ -26,6 +26,8 @@ $ cd [选项][参数]
 $ cd [目录名称]
 ```
 
+实例演示
+
 ```
 [root@linux-command ~]# cd linux_cd
 
@@ -37,6 +39,8 @@ $ cd [目录名称]
 ```
 $ cd -
 ```
+
+实例演示
 
 ```
 [root@linux-command linux_cd]# cd -
@@ -51,6 +55,8 @@ $ cd -
 ```
 $ cd ..
 ```
+
+实例演示
 
 ```
 [root@linux-command ~]# cd ..
