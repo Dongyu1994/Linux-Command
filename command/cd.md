@@ -20,13 +20,13 @@ $ cd [选项][参数]
 
 ### 示例
 
-** 基本使用 **
+**基本使用**
 
 ```
 $ cd [目录名称]
 ```
 
-** 实例演示 **
+**实例演示**
 
 ```
 [root@linux-command ~]# cd linux_cd
@@ -34,13 +34,13 @@ $ cd [目录名称]
 [root@linux-command linux_cd]#
 ```
 
-** - 选项使用 **
+**- 选项使用**
 
 ```
 $ cd -
 ```
 
-** 实例演示 **
+**实例演示**
 
 ```
 [root@linux-command linux_cd]# cd -
@@ -50,13 +50,13 @@ $ cd -
 [root@linux-command ~]#
 ```
 
-** .. 选项使用 **
+**.. 选项使用**
 
 ```
 $ cd ..
 ```
 
-** 实例演示 **
+**实例演示**
 
 ```
 [root@linux-command ~]# cd ..
