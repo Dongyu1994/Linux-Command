@@ -39,9 +39,7 @@ $ ls
 
 ```
 [root@linux-command /]# ls
-
 bin   data  etc   lib    media  opt   root  sbin  sys  usr
-
 boot  dev   home  lib64  mnt    proc  run   srv   tmp  var
 ```
 
@@ -55,9 +53,7 @@ $ ls -a
 
 ```
 [root@linux-command /]# ls -a
-
 .   .autorelabel  boot  dev  home  lib64  mnt  proc  run   srv  tmp  var
-
 ..  bin           data  etc  lib   media  opt  root  sbin  sys  usr
 ```
 
@@ -71,9 +67,7 @@ $ ls -A
 
 ```
 [root@linux-command /]# ls -A
-
 .autorelabel  boot  dev  home  lib64  mnt  proc  run   srv  tmp  var
-
 bin           data  etc  lib   media  opt  root  sbin  sys  usr
 ```
 
@@ -87,9 +81,7 @@ $ ls -k
 
 ```
 [root@linux-command /]# ls -k
-
 bin   data  etc   lib    media  opt   root  sbin  sys  usr
-
 boot  dev   home  lib64  mnt    proc  run   srv   tmp  var
 ```
 
@@ -103,47 +95,26 @@ $ ls -l
 
 ```
 [root@linux-command /]# ls -l
-
 total 48
-
 lrwxrwxrwx.  1 root root    7 Jun 11 19:47 bin -> usr/bin
-
 dr-xr-xr-x.  4 root root 4096 Jul 25 11:54 boot
-
 drwxr-xr-x   2 root root 4096 Aug 23 12:18 data
-
 drwxr-xr-x  18 root root 2940 Aug 23 11:58 dev
-
 drwxr-xr-x. 85 root root 4096 Aug 23 11:58 etc
-
 drwxr-xr-x.  2 root root 4096 Nov  5  2016 home
-
 lrwxrwxrwx.  1 root root    7 Jun 11 19:47 lib -> usr/lib
-
 lrwxrwxrwx.  1 root root    9 Jun 11 19:47 lib64 -> usr/lib64
-
 drwxr-xr-x.  2 root root 4096 Nov  5  2016 media
-
 drwxr-xr-x.  2 root root 4096 Nov  5  2016 mnt
-
 drwxr-xr-x.  3 root root 4096 Jun 11 19:52 opt
-
 dr-xr-xr-x  86 root root    0 Aug 23 11:58 proc
-
 dr-xr-x---.  5 root root 4096 Aug 23 11:59 root
-
 drwxr-xr-x  22 root root  740 Aug 23 11:59 run
-
 lrwxrwxrwx.  1 root root    8 Jun 11 19:47 sbin -> usr/sbin
-
 drwxr-xr-x.  2 root root 4096 Nov  5  2016 srv
-
 dr-xr-xr-x  13 root root    0 Aug 23 11:58 sys
-
 drwxrwxrwt.  7 root root 4096 Aug 23 12:00 tmp
-
 drwxr-xr-x. 13 root root 4096 Jun 11 19:47 usr
-
 drwxr-xr-x. 19 root root 4096 Aug 23 11:58 var
 ```
 
@@ -157,23 +128,18 @@ $ ls -R
 
 ```
 [root@linux-command ~]# ls -R
-
 .:
-
 ls-1  ls-2  ls-3
 
 ./ls-1:
-
 ls-1-1  ls-1-2
 
 ./ls-1/ls-1-1:
 
 ./ls-1/ls-1-2:
-
 ls.c
 
 ./ls-2:
-
 ls -2-1
 
 ./ls-2/ls -2-1:
@@ -191,9 +157,7 @@ $ ls -F
 
 ```
 [root@linux-command /]# ls -F
-
 bin@   data/  etc/   lib@    media/  opt/   root/  sbin@  sys/  usr/
-
 boot/  dev/   home/  lib64@  mnt/    proc/  run/   srv/   tmp/  var/
 ```
 
