@@ -38,39 +38,31 @@ $ man cat
 **实例演示**
 
 ```
-[root@linux-command /]# man cat
-
+[root@linux-command ~]# man cat
 CAT(1)                           User Commands                          CAT(1)
 
 NAME
-
        cat - concatenate files and print on the standard output
 
 SYNOPSIS
-
        cat [OPTION]... [FILE]...
 
 DESCRIPTION
-
        Concatenate FILE(s), or standard input, to standard output.
 
        -A, --show-all
-
               equivalent to -vET
 
        -b, --number-nonblank
-
               number nonempty output lines, overrides -n
 
        -e     equivalent to -vE
 
        -E, --show-ends
-
               display $ at end of each line
 
        -n, --number
-
-Manual page cat(1) line 1 (press h for help or q to quit)
+ Manual page cat(1) line 1 (press h for help or q to quit)
 ```
 
 **-w 选项使用**
@@ -83,7 +75,6 @@ $ man -w cat
 
 ```
 [root@linux-command /]# man -w cat
-
 /usr/share/man/man1/cat.1.gz
 ```
 
