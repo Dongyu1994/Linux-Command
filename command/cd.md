@@ -30,7 +30,6 @@ $ cd [目录名称]
 
 ```
 [root@linux-command ~]# cd linux_cd
-
 [root@linux-command linux_cd]#
 ```
 
@@ -44,9 +43,7 @@ $ cd -
 
 ```
 [root@linux-command linux_cd]# cd -
-
 /root
-
 [root@linux-command ~]#
 ```
 
@@ -60,7 +57,6 @@ $ cd ..
 
 ```
 [root@linux-command ~]# cd ..
-
 [root@linux-command /]# 
 ```
 
