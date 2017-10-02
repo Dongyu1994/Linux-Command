@@ -39,14 +39,14 @@ $ cat [文件列表]
 
 ```
 [root@linux-command ~]# cat auto-fdisk.sh
-#!/bin/bash
+
 # Author: Vtrois <seaton@vtrois.com>
 # Project URL: https://www.vtrois.com
 # Description: Auto fdisk for SpacePack Tools
 # Github URL: https://github.com/Vtrois/SpacePack
-……
+
 ```
 
 ## 温馨提示
 
-当文件较大时，文本在屏幕上迅速闪过，用户往往会看不清所显示的内容。因此，一般用 more 等命令分屏显示。为了控制滚屏，可以按 Ctrl+S 键，停止滚屏；按 Ctrl+Q 键可以恢复滚屏。按 Ctrl+C（中断）键可以终止该命令的执行，并且返回 shell 提示符状态。
+当文件较大时，文本在屏幕上迅速闪过，用户往往会看不清所显示的内容。因此，一般用 more 等命令分屏显示。为了控制滚屏，可以按 Ctrl+S 键，停止滚屏；按 Ctrl + Q 键可以恢复滚屏。按 Ctrl + C 键可以终止该命令的执行，并且返回 shell 状态。
