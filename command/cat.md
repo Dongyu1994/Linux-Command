@@ -44,7 +44,6 @@ $ cat [文件列表]
 # Project URL: https://www.vtrois.com
 # Description: Auto fdisk for SpacePack Tools
 # Github URL: https://github.com/Vtrois/SpacePack
-
 ```
 
 ## 温馨提示
