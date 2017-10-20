@@ -1,6 +1,6 @@
 # nslookup
 
-**nslookup** 是 Linux 下的基本命令，通过这个命令可以用来查询域名 DNS 信息。
+**nslookup** 是 Linux 下的基本命令，通过这个命令可以用来查询域名的 DNS 信息。
 
 ## 使用说明
 
